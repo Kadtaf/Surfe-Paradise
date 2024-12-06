@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surf Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Surf Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Accueil Section -->
+    <section id="home">
+        <div class="hero">
+            <h2>Explorez les vagues avec style</h2>
+            <p>Découvrez nos planches de surf conçues pour tous les niveaux.</p>
+            <a href="#products" class="cta-button">Voir nos produits</a>
+        </div>
+    </section>
+
+    <!-- Produits Section -->
+    <section id="products">
+        <h2>Nos Planches</h2>
+        <div class="product-gallery">
+            <div class="product">
+                <img src="surfboard1.jpg" alt="Planche de surf classique">
+                <h3>Planche Classique</h3>
+                <p>Parfait pour les débutants.</p>
+                <p class="price">199€</p>
+            </div>
+            <div class="product">
+                <img src="surfboard2.jpg" alt="Planche de surf avancée">
+                <h3>Planche Avancée</h3>
+                <p>Idéal pour les surfeurs expérimentés.</p>
+                <p class="price">299€</p>
+            </div>
+            <div class="product">
+                <img src="surfboard3.jpg" alt="Planche de surf pro">
+                <h3>Planche Pro</h3>
+                <p>Conçue pour les performances extrêmes.</p>
+                <p class="price">399€</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos Section -->
+    <section id="about">
+        <h2>À propos de nous</h2>
+        <p>Chez Surf Paradise, nous partageons votre passion pour la mer et les vagues. Nous fournissons des planches de surf de qualité supérieure adaptées à tous les niveaux.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Surf Paradise - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
